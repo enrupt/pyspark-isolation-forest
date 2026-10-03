@@ -1,0 +1,182 @@
+[
+ {
+  "model": "IsolationForest",
+  "rows": 10000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 7.55,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 405,
+   "peak_python_workers_rss_mb": 298,
+   "peak_driver_python_rss_mb": 116
+  },
+  "transform": {
+   "seconds": 2.89,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 410,
+   "peak_python_workers_rss_mb": 316,
+   "peak_driver_python_rss_mb": 118
+  },
+  "fit_with_contamination": {
+   "seconds": 6.88,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 431,
+   "peak_python_workers_rss_mb": 319,
+   "peak_driver_python_rss_mb": 118
+  }
+ },
+ {
+  "model": "ExtendedIsolationForest",
+  "rows": 10000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 3.93,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 441,
+   "peak_python_workers_rss_mb": 319,
+   "peak_driver_python_rss_mb": 126
+  },
+  "transform": {
+   "seconds": 3.1,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 444,
+   "peak_python_workers_rss_mb": 319,
+   "peak_driver_python_rss_mb": 124
+  },
+  "fit_with_contamination": {
+   "seconds": 7.8,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 450,
+   "peak_python_workers_rss_mb": 318,
+   "peak_driver_python_rss_mb": 125
+  }
+ },
+ {
+  "model": "IsolationForest",
+  "rows": 100000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 3.49,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 475,
+   "peak_python_workers_rss_mb": 336,
+   "peak_driver_python_rss_mb": 125
+  },
+  "transform": {
+   "seconds": 3.75,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 476,
+   "peak_python_workers_rss_mb": 336,
+   "peak_driver_python_rss_mb": 125
+  },
+  "fit_with_contamination": {
+   "seconds": 8.09,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 481,
+   "peak_python_workers_rss_mb": 336,
+   "peak_driver_python_rss_mb": 125
+  }
+ },
+ {
+  "model": "ExtendedIsolationForest",
+  "rows": 100000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 3.74,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 484,
+   "peak_python_workers_rss_mb": 336,
+   "peak_driver_python_rss_mb": 126
+  },
+  "transform": {
+   "seconds": 12.85,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 487,
+   "peak_python_workers_rss_mb": 337,
+   "peak_driver_python_rss_mb": 127
+  },
+  "fit_with_contamination": {
+   "seconds": 17.16,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 492,
+   "peak_python_workers_rss_mb": 338,
+   "peak_driver_python_rss_mb": 128
+  }
+ },
+ {
+  "model": "IsolationForest",
+  "rows": 1000000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 11.05,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 793,
+   "peak_python_workers_rss_mb": 317,
+   "peak_driver_python_rss_mb": 117
+  },
+  "transform": {
+   "seconds": 25.87,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 796,
+   "peak_python_workers_rss_mb": 318,
+   "peak_driver_python_rss_mb": 117
+  },
+  "fit_with_contamination": {
+   "seconds": 34.32,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 808,
+   "peak_python_workers_rss_mb": 347,
+   "peak_driver_python_rss_mb": 118
+  }
+ },
+ {
+  "model": "ExtendedIsolationForest",
+  "rows": 1000000,
+  "features": 10,
+  "trees": 100,
+  "fit": {
+   "seconds": 6.38,
+   "jobs": 5,
+   "stages": 12,
+   "peak_jvm_rss_mb": 814,
+   "peak_python_workers_rss_mb": 349,
+   "peak_driver_python_rss_mb": 122
+  },
+  "transform": {
+   "seconds": 110.8,
+   "jobs": 2,
+   "stages": 5,
+   "peak_jvm_rss_mb": 814,
+   "peak_python_workers_rss_mb": 324,
+   "peak_driver_python_rss_mb": 125
+  },
+  "fit_with_contamination": {
+   "seconds": 116.08,
+   "jobs": 11,
+   "stages": 27,
+   "peak_jvm_rss_mb": 809,
+   "peak_python_workers_rss_mb": 351,
+   "peak_driver_python_rss_mb": 126
+  }
+ }
+]
