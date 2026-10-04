@@ -5,4 +5,4 @@ from .isolation_forest import IsolationForest
 from .isolation_forest_model import IsolationForestModel
 
 __all__ = ["IsolationForest", "IsolationForestModel", "ExtendedIsolationForest", "ExtendedIsolationForestModel"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
