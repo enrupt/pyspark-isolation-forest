@@ -85,8 +85,8 @@ def _make_tree_fn(tree_kind: str, num_samples: int, num_features: int, seed: int
     def train(pdf):
         import numpy as _np
         import pandas as pd
-        from pyspark_isolation_forest.tree import IsolationTree
-        from pyspark_isolation_forest.extended_tree import ExtendedIsolationTree
+        from .tree import IsolationTree
+        from .extended_tree import ExtendedIsolationTree
 
         tree_id = int(pdf["treeId"].iloc[0])
         pdf = pdf.sort_values(["part", "seq"], kind="stable")
